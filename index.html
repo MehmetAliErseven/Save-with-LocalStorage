@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/09a9488ce4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="index.css" />
+    <title>Wonder Wall</title>
+  </head>
+  <body>
+    <div class="cloud">
+      <img id="c1" src="cloud-1.svg" />
+      <img id="c2" src="cloud-1.svg" />
+      <img id="c3" src="cloud-1.svg" />
+      <img id="c4" src="cloud-1.svg" />
+      <img id="c5" src="cloud-1.svg" />
+    </div>
+    <div class="container">
+      <div class="sign-up-container">
+        <div class="sign-up-greet">
+          <h1>Hello, Friend!</h1>
+          <p>
+            Enter your personal info and join us! <br />
+            Let's get started.
+          </p>
+        </div>
+        <div class="sign-up">
+          <form>
+            <h1>Create Account</h1>
+            <input id="name" type="text" placeholder="Name" />
+            <input id="email" type="email" placeholder="Email" />
+            <input id="password" type="password" placeholder="Password" />
+            <button id="localUp">Sign Up</button>
+          </form>
+        </div>
+      </div>
+      <div class="sign-in-container">
+        <div class="sign-in-greet">
+          <h1>Welcome!</h1>
+          <p>Please login with your personal info and start discover.</p>
+          <a id="goSignUp" href="#">Don't have an account?</a>
+        </div>
+        <div class="sign-in">
+          <form id="profil">
+            <h1><i class="fab fa-studiovinari"></i></h1>
+            <input id="emailIn" type="email" placeholder="Email" />
+            <input id="passwordIn" type="password" placeholder="Password" />
+            <a href="#">Forgot your password?</a>
+            <button id="localIn">Sign In</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>Created by Mehmet Ali Erseven</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>

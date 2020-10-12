@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/09a9488ce4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="profil.css" />
+    <title>Save Your Images</title>
+  </head>
+  <body>
+    <div class="container-nav">
+      <nav class="navbar">
+        <form class="nav-form" action="">
+          <label id="logo" for="logo"
+            ><i class="fab fa-studiovinari"></i
+          ></label>
+          <input type="search" name="search" id="search" />
+          <h1>Wonder-Wall</h1>
+        </form>
+        <ul>
+          <li>
+            <label for="files"><i class="far fa-plus-square"></i></label>
+          </li>
+          <li><i id="goUp" class="far fa-arrow-alt-circle-up"></i></li>
+          <li>
+            <a href="index.html"><i class="fas fa-sign-out-alt"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container-body">
+      <img src="back.svg" id="back" />
+      <input id="files" type="file" multiple style="display: none" />
+      <p id="state">No images stored in your browser.</p>
+      <div id="list"></div>
+      <label for="files"><i id="plus" class="far fa-plus-square"></i></label>
+      <i id="deleteImgs" class="far fa-minus-square"></i>
+    </div>
+    <footer>
+      <p>Created by Mehmet Ali Erseven</p>
+    </footer>
+    <script src="profil.js"></script>
+  </body>
+</html>
